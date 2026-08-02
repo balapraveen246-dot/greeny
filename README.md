@@ -1,37 +1,29 @@
-# Personal Portfolio Website
+# Reestar - Simple Food Website
 
-This is my personal portfolio website built using **HTML** and **basic CSS**. It showcases my profile, skills, projects, interests, and contact information in a clean and simple layout.
+Reestar is a simple food website built using **HTML** and **CSS**. It features a clean landing page with food items, an easy-to-use navigation bar, and a basic contact form.
 
-## 🔗 Live Demo
-👉 https://balapraveen246-dot.github.io/portfolio-simple-wedsite/
+## 🌐 Live Demo
+🔗 https://balapraveen246-dot.github.io/simple-food-website/
 
 ## 📂 Repository
-👉 https://github.com/balapraveen246-dot/portfolio-simple-wedsite
+🔗 https://github.com/balapraveen246-dot/simple-food-website
 
 ## Features
-- Responsive homepage
-- About Me section
-- Skills and Interests
-- Projects showcase
+- Responsive food menu cards
+- Navigation bar (Home, Recipe, Contact)
+- Order Now buttons
 - Contact form
-- Social media links
+- Simple and clean user interface
 
 ## Technologies Used
 - HTML5
 - CSS3
 
 ## Purpose
-This project was created to practice the fundamentals of web development and to build a professional online portfolio. It reflects my learning journey and serves as a foundation for creating more advanced web applications in the future.
-
-## Future Improvements
-- Add JavaScript for interactivity
-- Improve responsive design for all devices
-- Add animations and smooth scrolling
-- Connect the contact form to a backend
-- Enhance the UI with modern CSS and frameworks
+This project was created to practice the fundamentals of web development, including HTML structure, CSS styling, layouts, and forms.
 
 ## Author
 **Praveen R**
 
 - GitHub: https://github.com/balapraveen246-dot
-- LinkedIn: https://www.linkedin.com/in/praveenrfsds
+- LinkedIn: https://www.linkedin.com/in/praveen-r-fsds/
