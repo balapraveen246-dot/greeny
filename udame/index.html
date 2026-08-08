@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Udemy clone</title>
+
+  <!-- Google font link -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playwrite+ID:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+  <!-- style.css link -->
+  <link reL="stylesheet" href="style.css">
+
+  <!-- Font Awesome CND Link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css"
+    integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <!-- navbar section -->
+  <div class="navbar">
+    <div class="navbar__s1">
+      <img src="https://frontends.udemycdn.com/frontends-homepage/staticx/udemy/images/v7/logo-udemy.svg" alt="Udemy"
+        width="91" height="34" loading="lazy">
+    </div>
+    <div class="navbar__s2">
+      <p class="navbar__s2_E1">Find Courses</p>
+      <p class="navbar__s2_E2">Get Certified</p>
+      <p class="navbar__s2_E3">Subscribe</p>
+    </div>
+    <div class="navbar__s3">
+      <i class="fa-solid fa-magnifying-glass"></i>
+      <input type="text" placeholder="Search for Anything">
+    </div>
+    <div class="navbar__s4">
+      <p class="navbar__s4_E1">Udemy business</p>
+      <p class="navbar__s4_E2">Teach on Udemy</p>
+      <p class="navbar__s4_E3">My Learning</p>
+      <i class="fa-regular fa-heart" style="color: rgb(0, 0, 0);"></i>
+      <i class="fa-solid fa-cart-arrow-down" style="color: rgb(0, 0, 0);"></i>
+      <i class="fa-regular fa-bell" style="color: rgb(0, 0, 0);"></i>
+      <button class="navbar__s4_E4">sign up</button>
+    </div>
+  </div>
+  <!-- navbar section bottom -->
+  <div class="navbar__bottom">
+    <p class="navbar__bottom_E1">Development</p>
+    <p class="navbar__bottom_E2">Business</p>
+    <p class="navbar__bottom_E3">Finance & Accounting</p>
+    <p class="navbar__bottom_E4">IT & Software</p>
+    <p class="navbar__bottom_E5">Office Productivity</p>
+    <p class="navbar__bottom_E6">Personal Development</p>
+    <p class="navbar__bottom_E7">Design</p>
+    <p class="navbar__bottom_E8">Marketing</p>
+    <p class="navbar__bottom_E9">Health & Fitness</p>
+    <p class="navbar__bottom_E10">Music</p>
+  </div>
+  <!-- Hero image -->
+  <div class="hero__image">
+    <img class="hero__image_png" src="./images/a1.png" alt="sale.img">
+  </div>
+  <!-- RECOMMENDED COURSES -->
+  <div class="Trending__courses">
+    <h1>Trending courses</h1>
+  </div>
+  <!-- RECOMMENDED COURSES one by one -->
+  <div class="box">
+    <div class="box__1">
+      <img src="./images/c1.png" alt="course1">
+      <div class="box__4__s1">
+        <h4>AI Engineer Core Track: LLM Engineering, RAG, QLoRA, Agents</h4>
+        <p>Akash R</p>
+      </div>
+      <div class="box__4__s2">
+        <p class="best__seller">Bestseller</p>
+        <p class="star_r">★ 4.7</p>
+        <p class="rating">44,060 ratings</p>
+      </div>
+      <div class="box__4__s3">
+        <p class="price">₹529.00 </p>
+        <del class="del_price">₹799.00</del>
+      </div>
+    </div>
+    <div class="box__2">
+      <img src="./images/c2.png" alt="course1">
+      <div class="box__4__s1">
+        <h4>ChatGPT & AI Tools - From Beginner to Expert</h4>
+        <p>Gothadaraman </p>
+      </div>
+      <div class="box__4__s2">
+        <p class="best__seller">Premium</p>
+        <p class="star_r">★ 4.6</p>
+        <p class="rating">2112 ratings</p>
+      </div>
+      <div class="box__4__s3">
+        <p class="price">₹569.00 </p>
+        <del class="del_price">₹799.00</del>
+      </div>
+    </div>
+    <div class="box__3">
+      <img src="./images/c3.png" alt="course1">
+      <div class="box__4__s1">
+        <h4>100 Days of Code™: The Complete Python Pro Bootcamp</h4>
+        <p>Kishore M</p>
+      </div>
+      <div class="box__4__s2">
+        <p class="best__seller">Bestseller</p>
+        <p class="star_r">★ 4.7</p>
+        <p class="rating">38,291 ratings</p>
+      </div>
+      <div class="box__4__s3">
+        <p class="price">₹529.00 </p>
+        <del class="del_price">₹4,469.00</del>
+      </div>
+    </div>
+    <div class="box__4">
+      <img src="./images/c4.png" alt="course1">
+      <div class="box__4__s1">
+        <h4>AI Engineer Agentic Track: The Complete Agent & MCP Course</h4>
+        <p>Saravanan T</p>
+      </div>
+      <div class="box__4__s2">
+        <p class="best__seller">Bestseller</p>
+        <p class="star_r">★ 4.7</p>
+        <p class="rating">430,491 ratings</p>
+      </div>
+      <div class="box__4__s3">
+        <p class="price">₹529.00 </p>
+        <del class="del_price">₹3199.00</del>
+      </div>
+    </div>
+  </div>
+  <!-- Trending topics in India -->
+  <div class="card_1">
+    <h1 class="TTII_h1">Trending topics in India</h1>
+    <div class="Trending_topics_in_India">
+      <div class="Trending_topics_s1">
+        <h1 class="Trending_topics_h2">AI skills for work</h1>
+        <h3 class="Trending_topics_h">See ChatGPT Courses ></h3>
+        <p class="Trending_topics_p">56 lakh learners</p>
+        <h4 class="Trending_topics_h_sp">Show all trending topics <i class="fa-solid fa-arrow-trend-up"
+            style="color: #5022c3;"></i></h4>
+      </div>
+      <div class="Trending_topics_s2">
+        <h2 class="Trending_topics_h2">Development</h2>
+        <h3 class="Trending_topics_h">Python ></h3>
+        <p class="Trending_topics_p">5 crore learners</p>
+        <h3 class="Trending_topics_h">Data Science ></h3>
+        <p class="Trending_topics_p">84 lakh learners</p>
+        <h3 class="Trending_topics_h">Wed Development ></h3>
+        <p class="Trending_topics_p">1 crore learners</p>
+      </div>
+      <div class="Trending_topics_s3">
+        <h2 class="Trending_topics_h2">Data Analytics</h2>
+        <h3 class="Trending_topics_h">See ChatGPT Courses ></h3>
+        <p class="Trending_topics_p">2 crore learners</p>
+        <h3 class="Trending_topics_h">SQL ></h3>
+        <p class="Trending_topics_p">91 lakh learners</p>
+        <h3 class="Trending_topics_h">Microsoft Power BI ></h3>
+        <p class="Trending_topics_p">53 lakh learners</p>
+      </div>
+      <div class="Trending_topics_s4">
+        <h2 class="Trending_topics_h2">Career Certifications</h2>
+        <h3 class="Trending_topics_h">PMI Project Management Professional (PMP) ></h3>
+        <p class="Trending_topics_p">30 lakh learners</p>
+        <h3 class="Trending_topics_h">AWS Certified Solutions Architect - Associate ></h3>
+        <p class="Trending_topics_p">40 lakh learners</p>
+        <h3 class="Trending_topics_h">AWS Certified Cloud Practitioner ></h3>
+        <p class="Trending_topics_p">26 lakh learners</p>
+      </div>
+    </div>
+  </div>
+  <!-- Information card -->
+  <div class="card_2">
+    <div class="card_2_s1">
+      <h1 class="card_2_s1_h1">Build your career with a Personal Plan subscription</h1>
+      <p class="card_2_s1_p1">Subscribers save an average of ₹4,000+ in their first month, stop paying per course. Join
+        5 lakh+ learners,
+        starting at ₹500/month.</p>
+      <div class="card_2_s1_1">
+        <table class="card_2_table">
+          <tr>
+            <td class="card_2_table_data"><i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i></td>
+            <td class="card_2_table_data">Get access to 28,000+ top-rated courses</td>
+            <td class="card_2_table_data"><i class="fa-regular fa-credit-card" style="color: #dedb08;"></i></td>
+            <td class="card_2_table_data">Dev, IT, Business, Design and 50+ more topics</td>
+          </tr>
+          <tr>
+            <td><i class="fa-solid fa-lightbulb" style="color: rgb(255, 212, 59);"></i></td>
+            <td class="card_2_table_data">Learn from 9,000+ expert instructors</td>
+            <td><i class="fa-solid fa-trophy" style="color: rgb(255, 212, 59);"></i> </td>
+            <td class="card_2_table_data">Certification prep for AWS, Microsoft, PMI, and more</td>
+          </tr>
+        </table>
+      </div>
+      <button class="card_2_btn">Sudscribe now</button>
+      <p class="card_2_lm">Learn more</p>
+    </div>
+    <div>
+      <img class="card_2_img" src="./images/a2.png" alt="card_2_img">
+    </div>
+  </div>
+  <!-- Skills to transform your career and life -->
+  <div class="box_2_skills">
+    <h1 class="box_2_skills_h1">Skills to transform your career and life</h1>
+    <p class="box_2_skills_p">From critical skills to technical topics, Udemy supports your professional development.
+    </p>
+  </div>
+  <!-- Skills to transform your career and life -->
+  <div class="box">
+    <div class="box__1">
+      <img src="./images/c5.png" alt="course1">
+      <div class="box__4__s1">
+        <h4>Digital Marketing Mega Course For 2026 | 104 Courses in 1</h4>
+        <p>Semmozhi selvam SP</p>
+      </div>
+      <div class="box__4__s2">
+        <p class="best__seller">Bestseller</p>
+        <p class="star_r">★ 4.5</p>
+        <p class="rating">970 ratings</p>
+      </div>
+      <div class="box__4__s3">
+        <p class="price">₹569.00 </p>
+        <del class="del_price">₹799.00</del>
+      </div>
+    </div>
+    <div class="box__2">
+      <img src="./images/c6.png" alt="course1">
+      <div class="box__4__s1">
+        <h4>[NEW] AWS Certified Cloud Practitioner 2026 (CLF-C02)</h4>
+        <p>Manoj N</p>
+      </div>
+      <div class="box__4__s2">
+        <p class="best__seller">Bestseller</p>
+        <p class="star_r">★ 4.6</p>
+        <p class="rating">1,156 ratings</p>
+      </div>
+      <div class="box__4__s3">
+        <p class="price">₹549.00 </p>
+        <del class="del_price">₹799.00</del>
+      </div>
+    </div>
+    <div class="box__3">
+      <img src="./images/c7.png" alt="course1">
+      <div class="box__4__s1">
+        <h4>Machine Learning, Data Science & AI Engineering with Python</h4>
+        <p>Sri Ranganathan T</p>
+      </div>
+      <div class="box__4__s2">
+        <p class="best__seller">Premium</p>
+        <p class="star_r">★ 4.7</p>
+        <p class="rating">36,796 ratings</p>
+      </div>
+      <div class="box__4__s3">
+        <p class="price">₹529.00 </p>
+        <del class="del_price">₹4,469.00</del>
+      </div>
+    </div>
+    <div class="box__4">
+      <img src="./images/c8.png" alt="course1">
+      <div class="box__4__s1">
+        <h4>Microsoft Excel: Beginner to Advanced in 2026!</h4>
+        <p>Sathiya V</p>
+      </div>
+      <div class="box__4__s2">
+        <p class="best__seller">Bestseller</p>
+        <p class="star_r">★ 4.7</p>
+        <p class="rating">323 ratings</p>
+      </div>
+      <div class="box__4__s3">
+        <p class="price">₹529.00 </p>
+        <del class="del_price">₹799.00</del>
+      </div>
+    </div>
+  </div>
+  <!-- Arrow -->
+  <div class="box_learning_h1_bottem">
+    <h4 class="box_2_bottem_h3">Show All Life changing courses </h4>
+    <i class="fa-solid fa-arrow-right" style="color: #6D28D2;"></i>
+  </div>
+  <!-- Udemy is trusted by over 17,000 companies and millions of learners around the world -->
+  <div class="box_companies">
+    <p class="box_companies_P">Udemy is trusted by over 17,000 companies and millions of learners around the world</p>
+    <div class="box_companies_img">
+      <ul>
+        <li><img
+            src="https://cms-images.udemycdn.com/96883mtakkm8/3E0eIh3tWHNWADiHNBmW4j/3444d1a4d029f283aa7d10ccf982421e/volkswagen_logo.svg"
+            alt="Volkswagen logo" loading="eager"></li>
+      </ul>
+      <ul>
+        <li><img
+            src="https://cms-images.udemycdn.com/96883mtakkm8/2pNyDO0KV1eHXk51HtaAAz/090fac96127d62e784df31e93735f76a/samsung_logo.svg"
+            alt="Samsung logo" loading="eager"></li>
+      </ul>
+      <ul>
+        <li><img
+            src="https://cms-images.udemycdn.com/96883mtakkm8/3YzfvEjCAUi3bKHLW2h1h8/ec478fa1ed75f6090a7ecc9a083d80af/cisco_logo.svg"
+            alt="Cisco logo" loading="eager"></li>
+      </ul>
+      <ul>
+        <li><img
+            src="https://cms-images.udemycdn.com/96883mtakkm8/23XnhdqwGCYUhfgIJzj3PM/77259d1ac2a7d771c4444e032ee40d9e/vimeo_logo_resized-2.svg"
+            alt="Vimeo logo" loading="eager"></li>
+      </ul>
+      <ul>
+        <li><img
+            src="https://cms-images.udemycdn.com/96883mtakkm8/1UUVZtTGuvw23MwEnDPUr3/2683579ac045486a0aff67ce8a5eb240/procter_gamble_logo.svg"
+            alt="Procter &amp; Gamble logo" loading="eager"></li>
+      </ul>
+      <ul>
+        <li><img
+            src="https://cms-images.udemycdn.com/96883mtakkm8/1GoAicYDYxxRPGnCpg93gi/a8b6190cc1a24e21d6226200ca488eb8/hewlett_packard_enterprise_logo.svg"
+            alt="Hewlett Packard Enterprise logo" loading="eager"></li>
+      </ul>
+      <ul>
+        <li><img
+            src="https://cms-images.udemycdn.com/96883mtakkm8/7guDRVYa2DZD0wD1SyxREP/b704dfe6b0ffb3b26253ec36b4aab505/ericsson_logo.svg"
+            alt="Ericsson logo" loading="eager"></li>
+      </ul>
+      <ul>
+        <li><img
+            src="https://cms-images.udemycdn.com/96883mtakkm8/2tQm6aYrWQzlKBQ95W00G/c7aaf002814c2cde71d411926eceaefa/citi_logo.svg"
+            alt="Citi logo" loading="eager"></li>
+      </ul>
+    </div>
+  </div>
+  <!-- Join others transforming their lives through learning -->
+  <div class="Full_box_learning">
+    <h2 class="box_learning_h1">Join others transforming their lives through learning</h2>
+    <div class="box_learning">
+      <div class="box_learning_common">
+        <i class="fa-solid fa-quote-left" style="color: rgb(0, 0, 0);"></i>
+        <p class="learning_box_pt">
+          The course did a great job explaining AI - from development through application. I appreciated the varying
+          perspectives presented, which were helpful in understanding how to use AI responsibly as a tool in my
+          profession,
+          rather than a novelty.</p>
+        <img class="learning_box_img"
+          src="https://cms-images.udemycdn.com/96883mtakkm8/3RtbxhMUTMftb9PKczSTDW/f383a1effc2975968d2f87d9273c6e9d/cris-m.webp"
+          alt="" class="ud-avatar ud-avatar-image" width="48" height="48" style="width:4.8rem;height:4.8rem"
+          loading="eager">
+        <div class="learning_box_pb">
+          <p>Cris M.</p>
+          <p>Google AI Essentials graduate</p>
+        </div>
+        <p class="learning_box_pbb">View AI courses ></p>
+      </div>
+      <div class="box_learning_common">
+        <i class="fa-solid fa-quote-left" style="color: rgb(0, 0, 0);"></i>
+        <p class="learning_box_pt">
+          Udemy was truly a game-changer and a great guide for me as we brought Dimensional to life.</p>
+        <img class="learning_box_img"
+          src="https://cms-images.udemycdn.com/96883mtakkm8/1Djz6c0gZLaCG5SQS3PgUY/54b6fb8c85d8da01da95cbb94fa6335f/Alvin_Lim.jpeg"
+          alt="" class="ud-avatar ud-avatar-image" width="48" height="48" style="width:4.8rem;height:4.8rem"
+          loading="eager">
+        <div class="learning_box_pb">
+          <p>Alvin Lim</p>
+          <p>Technical Co-Founder, CTO at Dimensional</p>
+        </div>
+        <p class="learning_box_pbb">View this ios and shift course ></p>
+      </div>
+      <div class="box_learning_common">
+        <i class="fa-solid fa-quote-left" style="color: rgb(0, 0, 0);"></i>
+        <p class="learning_box_pt">
+          Udemy gives you the ability to be persistent. I learned exactly what I needed to know in the real world. It
+          helped me sell myself to get a new role.</p>
+        <img class="learning_box_img"
+          src="https://cms-images.udemycdn.com/96883mtakkm8/6dT7xusLHYoOUizXeVqgUk/4317f63fe25b2e07ad8c70cda641014b/William_A_Wachlin.jpeg"
+          alt="" class="ud-avatar ud-avatar-image" width="48" height="48" style="width:4.8rem;height:4.8rem"
+          loading="eager">
+        <div class="learning_box_pb">
+          <p>William A. Wachlin</p>
+          <p>Partner Account Manager at Amazon Web Services</p>
+        </div>
+        <p class="learning_box_pbb">View this AWS course ></p>
+      </div>
+      <div class="box_learning_common">
+        <i class="fa-solid fa-quote-left" style="color: rgb(0, 0, 0);"></i>
+        <p class="learning_box_pt">
+          I loved the course about AI Studio. I was not aware of this Google tool, but immediately after taking the
+          course,
+          I put it to use. Within 24 hours, I had a functional, highly useful app for my law firm.</p>
+        <img class="learning_box_img"
+          src="https://cms-images.udemycdn.com/96883mtakkm8/1AXU6146N5h3Ti9rGXytFv/4832b694a15fa19c4f0538ee0c71f55a/ben-c.webp"
+          alt="" class="ud-avatar ud-avatar-image" width="48" height="48" style="width:4.8rem;height:4.8rem"
+          loading="eager">
+        <div class="learning_box_pb">
+          <p>Ben C</p>
+          <p>Google AI Professional Certificate graduate</p>
+        </div>
+        <p class="learning_box_pbb">View Google AI certificates ></p>
+      </div>
+    </div>
+    <div class="box_learning_h1_bottem">
+      <h4> View All stories </h4>
+      <i class="fa-solid fa-arrow-right" style="color: #6D28D2;"></i>
+    </div>
+  </div>
+  <!-- Get certified and get ahead in your career -->
+  <div class="Get_certified_box">
+    <div class="Get_certified_box_s1">
+      <h1 class="Get_certified_box_s1_h1">Get certified and get ahead in your career</h1>
+      <p class="Get_certified_box_s1_p">Prep for certifications with comprehensive courses, practice tests, and special
+        offers on exam vouchers.</p>
+      <h3 class="Get_certified_box_s1_h3">Explore certification and vouchers</h3>
+    </div>
+    <div class="Get_certified_box_s2">
+      <div class="Get_certified_box_s2_img1">
+        <img src="./images/b1.png" alt="CompTIA">
+        <h3>CompTIA</h3>
+        <p>Cloud, Networking, Cybersecurity</p>
+      </div>
+      <div class="Get_certified_box_s2_img1">
+        <img src="./images/b2.png" alt="AWS">
+        <h3>AWS</h3>
+        <p>Cloud, AI, Coding, Networking</p>
+      </div>
+      <div class="Get_certified_box_s2_img1">
+        <img src="./images/b3.png" alt="CompTIA">
+        <h3>CompTIA</h3>
+        <p>Project and Program Management</p>
+      </div>
+    </div>
+  </div>
+  <!-- Ready to reimagine your career? -->
+  <div>
+    <div class="box_career_hp">
+      <h1 class="box_career_h">Ready to reimagine your career?</h1>
+      <P>Get the skills and real-world experience employers want with Career Accelerators.</P>
+    </div>
+    <div class="box_career">
+      <div class="box__1_c9">
+        <img src="./images/c9.png" alt="course1">
+        <div class="box__4__s1">
+          <h4>Cloud Engineer</h4>
+        </div>
+        <div class="box__4__s2">
+          <p class="star_r_career">★ 4.7</p>
+          <p class="rating_career">332k ratings</p>
+          <p class="Total_hr">29 Total hours</p>
+        </div>
+      </div>
+      <div class="box__2_c10">
+        <img src="./images/c10.png" alt="course1">
+        <div class="box__4__s1">
+          <h4>Data scientist</h4>
+        </div>
+        <div class="box__4__s2">
+          <p class="star_r_career">★ 4.5</p>
+          <p class="rating_career">228k ratings</p>
+          <p class="Total_hr">47.1 Total hours</p>
+        </div>
+      </div>
+      <div class="box__3_c11">
+        <img src="./images/c11.png" alt="course1">
+        <div class="box__4__s1">
+          <h4>Digital Marketer</h4>
+        </div>
+        <div class="box__4__s2">
+          <p class="star_r_career">★ 4.6</p>
+          <p class="rating_career">4k ratings</p>
+          <p class="Total_hr">28.4 Total hours</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="box_learning_h1_bottem">
+    <h4 class="box_2_bottem_h3">All Caree Accelerators </h4>
+    <i class="fa-solid fa-arrow-right" style="color: #6D28D2;"></i>
+  </div>
+  <!-- Top companies choose Udemy Business to build in-demand career skills -->
+  <div class="top_comp_w_udemy">
+    <h3>Top companies choose Udemy Business to build in-demand career skills.</h3>
+    <div class="comp_logo">
+      <img src="https://s.udemycdn.com/partner-logos/v4/nasdaq-light.svg" alt="Nasdaq" height="44" width="115"
+        loading="lazy">
+      <img src="https://s.udemycdn.com/partner-logos/v4/volkswagen-light.svg" alt="Volkswagen" height="44" width="44"
+        loading="lazy">
+      <img src="https://s.udemycdn.com/partner-logos/v4/netapp-light.svg" alt="NetApp" height="44" width="115"
+        loading="lazy">
+      <img src="https://s.udemycdn.com/partner-logos/v4/eventbrite-light.svg" alt="Eventbrite" height="44" width="115"
+        loading="lazy">
+    </div>
+  </div>
+  <!-- Explore top skills and certifications -->
+  <div class="Explor_top_skills">
+    <h2 class="Explor_top_skills_h1">Explore top skills and certifications</h2>
+    <div class="Explor_top_skills_s1">
+      <div class="Explor_top_skills_s1_1">
+        <h3 class="Explor_top_skills_s1_1_h">In-demand Careers</h3>
+        <p>Data Scientist</p>
+        <p>Full Stack Web Developer</p>
+        <p>Cloud Engineer</p>
+        <p>Project Manager</p>
+        <p>Game Developer</p>
+        <p>All Career Accelerators</p>
+      </div>
+      <div class="Explor_top_skills_s1_2">
+        <h3 class="Explor_top_skills_s1_1_h">Web Development</h3>
+        <p>Web Development</p>
+        <p>JavaScript</p>
+        <p>React JS</p>
+        <p>Angular</p>
+        <p>Java</p>
+      </div>
+      <div class="Explor_top_skills_s1_3">
+        <h3 class="Explor_top_skills_s1_1_h">IT Certifications</h3>
+        <p>Amazon AWS</p>
+        <p>AWS Certified Cloud Practitioner</p>
+        <p>AZ-900: Microsoft Azure Fundamentals</p>
+        <p>AWS Certified Solutions Architect - Associate</p>
+        <p>Kubernetes</p>
+      </div>
+      <div class="Explor_top_skills_s1_4">
+        <h3 class="Explor_top_skills_s1_1_h">Leadership</h3>
+        <p>Leadership</p>
+        <p>Management Skills</p>
+        <p>Project Management</p>
+        <p>Personal Productivity</p>
+        <p>Emotional Intelligence</p>
+      </div>
+    </div>
+    <div class="Explor_top_skills_s1">
+      <div class="Explor_top_skills_s1_1">
+        <h3 class="Explor_top_skills_s1_1_h">Certifications by Skill</h3>
+        <p>Cybersecurity Certification</p>
+        <p>Project Management Certification</p>
+        <p>Cloud Certification</p>
+        <p>Data Analytics Certification</p>
+        <p>HR Management Certification</p>
+        <p>See all Certifications</p>
+      </div>
+      <div class="Explor_top_skills_s1_2">
+        <h3 class="Explor_top_skills_s1_1_h">Data Science</h3>
+        <p>Data Science</p>
+        <p>Python</p>
+        <p>Machine Learning</p>
+        <p>ChatGPT</p>
+        <p>Deep Learning</p>
+      </div>
+      <div class="Explor_top_skills_s1_3">
+        <h3 class="Explor_top_skills_s1_1_h">Communication</h3>
+        <p>Communication Skills</p>
+        <p>Presentation Skills</p>
+        <p>Public Speaking</p>
+        <p>Writing</p>
+        <p>PowerPoint</p>
+      </div>
+      <div class="Explor_top_skills_s1_4">
+        <h3 class="Explor_top_skills_s1_1_h">Business Analytics & Intelligence</h3>
+        <p>Microsoft Excel</p>
+        <p>SQL</p>
+        <p>Microsoft Power BI</p>
+        <p>Data Analysis</p>
+        <p>Business Analysis</p>
+      </div>
+    </div>
+    <div class="Explor_top_skills_s2">
+      <div class="Explor_top_skills_s1_1">
+        <h3 class="Explor_top_skills_s1_1_h">About</h3>
+        <p>About us</p>
+        <p>Careers</p>
+        <p>Contact us</p>
+        <p>Blog</p>
+        <p>Investors</p>
+        <p>Find more on Coursera</p>
+      </div>
+      <div class="Explor_top_skills_s1_2">
+        <h3 class="Explor_top_skills_s1_1_h">Discover Udemy</h3>
+        <p>Get the app</p>
+        <p>Teach on Udemy</p>
+        <p>Plans and Pricing</p>
+        <p>Affiliate</p>
+        <p>Help and Support</p>
+      </div>
+      <div class="Explor_top_skills_s1_3">
+        <h3 class="Explor_top_skills_s1_1_h">Udemy for Business</h3>
+        <p>Udemy Business</p>
+      </div>
+      <div class="Explor_top_skills_s1_4">
+        <h3 class="Explor_top_skills_s1_1_h">Legal & Accessibility</h3>
+        <p>Accessibility statement</p>
+        <p>Privacy policy</p>
+        <p>Sitemap</p>
+        <p>Terms</p>
+      </div>
+    </div>
+  </div>
+  <div class="last_box">
+    <div class="last_box_img">
+      <img src="./images/f1.png" alt="Udemy">
+      <p> © 2026 Udemy, Inc.</p>
+    </div>
+    <div>
+      <P class="CBS">Creator Black Swan</P>
+    </div>
+    <div>
+      <p><i class="fa-solid fa-globe" style="color: rgb(255, 255, 255);"></i> English</p>
+    </div>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,781 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.navbar {
+    padding: 10px;
+    display: flex;
+    color: black;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+}
+
+.navbar__s1 {
+    align-items: center;
+    gap: 20px;
+    padding-left: 10px;
+}
+
+.navbar__s2 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.navbar__s2 p:hover {
+    cursor: pointer;
+    color: #A435F0;
+}
+
+.navbar__s3 {
+    border: 1px solid black;
+    border-radius: 25px;
+    width: 450px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.navbar__s3 input {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    width: 90%;
+}
+
+.navbar__s3:hover {
+    border-color: #A435F0;
+}
+
+.navbar__s4 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.navbar__s4_E4 {
+    border: none;
+    font-weight: 700;
+    background-color: #A435F0;
+    border-radius: 8px;
+    padding: 12px 16px;
+    color: white;
+    font-family: "Inter", sans-serif;
+    cursor: pointer;
+}
+
+.navbar__s4 p:hover {
+    cursor: pointer;
+    color: #A435F0;
+}
+
+.navbar__s4_E4:hover {
+    background-color: #b052ee;
+    color: white;
+}
+
+.navbar__bottom {
+    color: black;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+.navbar__bottom p:hover {
+    cursor: pointer;
+    color: #A435F0;
+}
+
+.hero__image {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.hero__image_png {
+    width: 100%;
+    width: 1200px;
+    height: auto;
+}
+
+.Trending__courses {
+    display: flex;
+    justify-content: left;
+    font-family: "Inter", sans-serif;
+    margin: 30px;
+}
+
+.box img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    vertical-align: top;
+    gap: 20px;
+    margin: 30px;
+}
+
+.box__1,
+.box__2,
+.box__3,
+.box__4 {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 330px;
+    height: auto;
+    padding: 10px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.box__1:hover,
+.box__2:hover,
+.box__3:hover,
+.box__4:hover {
+    cursor: pointer;
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    background-color: #F8F6F6;
+}
+
+.box__4__s1 {
+    text-align: left;
+}
+
+.box__4__s2 {
+    margin-top: 15px;
+    text-align: left;
+    display: flex;
+    gap: 10px;
+}
+
+.box__4__s3 {
+    margin-top: 10px;
+    text-align: left;
+    display: flex;
+    justify-content: left;
+    gap: 5px;
+}
+
+.best__seller {
+    padding: 2px 4px;
+    background-color: #C2E9EB;
+    color: #0D5261;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    border-radius: 4px;
+}
+
+.star_r,
+.rating {
+    color: #718ABA;
+    border: 0.1px solid gray;
+    border-radius: 4px;
+    padding: 2px 4px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+.price {
+    font-family: "Inter", sans-serif;
+    font-weight: 800;
+}
+
+.del_price {
+    font-family: "Inter", sans-serif;
+    font-weight: 200;
+}
+
+.TTII_h1 {
+    margin: 30px;
+    border-bottom: 1px #D1D2E0 solid;
+    padding-bottom: 10px;
+}
+
+.Trending_topics_in_India {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+.Trending_topics_h2 {
+    padding-bottom: 15px;
+}
+
+.Trending_topics_p {
+    padding-bottom: 15px;
+}
+
+.Trending_topics_h {
+    padding-bottom: 15px;
+    color: #5022C3;
+}
+
+.Trending_topics_h_sp {
+    margin: 20px;
+    padding: 8px 15px;
+    color: #5022C3;
+    border: 1px solid #5022C3;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.card_1 {
+    background-color: #F6F7F9;
+}
+
+
+.card_2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    margin-top: 50px;
+    padding: 50px;
+    background-color: #202230;
+    color: white;
+    border-radius: 30px;
+    gap: 50px;
+}
+
+.card_2_img {
+    width: 700px;
+    height: 500px;
+    border-radius: 20px;
+}
+
+.card_2_s1_h1 {
+    padding-bottom: 10px;
+}
+
+.card_2_s1_p1 {
+    padding-bottom: 0px;
+    font-weight: 400;
+}
+
+.card_2_table {
+    padding: 20px;
+    padding-left: 0px;
+}
+
+.card_2_table_data {
+    padding: 10px;
+    padding-left: 0px;
+    font-weight: 400;
+
+}
+
+.card_2_btn {
+    padding: 15px 50px;
+    background-color: white;
+    color: #2A2B3F;
+    font-weight: 800;
+    border-radius: 8px;
+    border: none;
+    margin-top: 15px;
+    display: block;
+}
+
+.card_2_lm {
+    font-weight: 800;
+    padding-top: 10px;
+    border-bottom: 2px solid white;
+    display: inline-block;
+}
+
+
+.box_2_skills {
+    padding: 30px;
+    padding-bottom: 10px;
+}
+
+.box_2_skills_p {
+    padding-top: 10px;
+    padding-bottom: 0 px;
+    font-weight: 400;
+}
+
+.box_2_bottem_h3 {
+    margin-left: 70px;
+    color: #6D28D2;
+}
+
+.box_companies {
+    padding: 60px 90px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    background-color: #F6F7F9;
+}
+
+.box_companies_P {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+    font-weight: 400;
+    color: #6A6F73;
+}
+
+.box_companies_img {
+    display: flex;
+    justify-content: space-around;
+}
+
+.box_companies_img ul {
+    list-style: none;
+}
+
+.box_learning {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 50px;
+}
+
+.box_learning_h1 {
+    margin: 30px;
+}
+
+.box_learning_common {
+    border: #D1D2E0 solid 1px;
+    border-radius: 10px;
+    width: 370px;
+    height: auto;
+    padding: 20px;
+}
+
+.box_learning_common i {
+    font-size: 20px;
+}
+
+.learning_box_pt {
+    height: 180px;
+    font-weight: 300;
+
+}
+
+.learning_box_img {
+    border-radius: 50px;
+    display: inline;
+}
+
+.learning_box_pb {
+    display: inline-block;
+    font-size: smaller;
+    color: #71758E;
+    width: 200px;
+    padding: 10px;
+    vertical-align: top
+}
+
+.learning_box_pbb {
+    margin-top: 40px;
+    color: #5022C3;
+}
+
+.box_learning_h1_bottem {
+    padding: 30px;
+    padding-top: 0px;
+    color: #6D28D2;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: bold;
+}
+
+.box_learning_h1_bottem:hover {
+    cursor: pointer;
+}
+
+.box_learning_h1_bottem i {
+    padding-top: 5px;
+    font-size: smaller;
+}
+
+.Get_certified_box {
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    margin: 30px;
+    margin-top: 50px;
+    padding: 80px;
+    background-color: #202230;
+    border-radius: 40px;
+    color: white;
+    /* height: 430px; */
+}
+
+.Get_certified_box_s2 {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.Get_certified_box_s2_img1 img {
+    height: auto;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.Get_certified_box_s1_h1 {
+    font-size: 35px;
+
+}
+
+.Get_certified_box_s1_p {
+    padding-top: 20px;
+    padding-bottom: 50px;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.Get_certified_box_s2_img1 {
+    border: #202230 1px solid;
+    border-radius: 10px;
+    background-color: #595C73;
+    padding: 20px;
+    height: auto;
+}
+
+.box_career_hp {
+    margin: 30px;
+}
+
+.box_career_h {
+    padding-bottom: 10px;
+}
+
+.box__1_c9,
+.box__2_c10,
+.box__3_c11 {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 425px;
+    height: auto;
+    padding: 15px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.box__1_c9:hover,
+.box__2_c10:hover,
+.box__3_c11:hover {
+    cursor: pointer;
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    background-color: #F8F6F6;
+}
+
+.box_career {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin: 30px;
+}
+
+.star_r_career,
+.rating_career,
+.Total_hr {
+    color: #71758E;
+    border: 0.1px solid gray;
+    border-radius: 4px;
+    padding: 2px 4px;
+    font-family: "Inter", sans-serif;
+    font-weight: 200;
+    font-size: 13px;
+    text-align: center;
+}
+
+.box__1_c9 img,
+.box__2_c10 img,
+.box__3_c11 img {
+    height: auto;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.top_comp_w_udemy {
+    display: flex;
+    justify-content: space-between;
+    background-color: #2A2B3F;
+    color: white;
+    padding: 30px;
+    border-bottom: 1px solid #B7B9CD;
+}
+
+.comp_logo {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.Explor_top_skills_h1 {
+    display: block;
+    padding: 30px;
+    background-color: #2A2B3F;
+    color: white;
+}
+
+.Explor_top_skills_s1 {
+    font-size: 15px;
+    background-color: #2A2B3F;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 100px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+
+.Explor_top_skills_s2 {
+    font-size: 15px;
+    background-color: #202230;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 100px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.Explor_top_skills_s1_1_h {
+    padding-bottom: 10px;
+}
+
+.Explor_top_skills_s1 p {
+    padding-bottom: 6px;
+}
+
+.last_box {
+    background-color: #1E202F;
+    border-top: 1px solid #B7B9CD;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    color: white;
+    height: 82px;
+}
+
+.last_box_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.last_box_img img {
+    max-width: 111px;
+    height: 54px;
+}
+
+.CBS {
+    font-family: "Playwrite ID", cursive;
+}
+
+/* ===========================
+   MOBILE RESPONSIVE <-- THIS AREA IS MAKE BY AI
+=========================== */
+
+@media screen and (max-width:768px){
+
+    /* Navbar */
+    .navbar{
+        flex-wrap: wrap;
+        gap:15px;
+        padding:15px;
+    }
+
+    .navbar__s2,
+    .navbar__s4{
+        display:none;
+    }
+
+    .navbar__s3{
+        width:100%;
+        order:3;
+    }
+
+    /* Bottom Menu */
+    .navbar__bottom{
+        flex-wrap:wrap;
+        gap:12px;
+        justify-content:center;
+        font-size:14px;
+    }
+
+    /* Hero */
+    .hero__image_png{
+        width:100%;
+        height:auto;
+    }
+
+    /* Trending Cards */
+    .box{
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .box__1,
+    .box__2,
+    .box__3,
+    .box__4{
+        width:95%;
+        height:auto;
+    }
+
+    .box img{
+        width:100%;
+        height:auto;
+    }
+
+    /* Trending Topics */
+    .Trending_topics_in_India{
+        flex-direction:column;
+        gap:25px;
+    }
+
+    /* Dark Card */
+    .card_2{
+        flex-direction:column;
+        padding:25px;
+        border-radius:20px;
+    }
+
+    .card_2_img{
+        width:100%;
+        height:auto;
+    }
+
+    .card_2_btn{
+        width:100%;
+    }
+
+    /* Companies */
+    .box_companies{
+        padding:30px 20px;
+    }
+
+    .box_companies_img{
+        flex-wrap:wrap;
+        gap:30px;
+    }
+
+    /* Learning Cards */
+    .box_learning{
+        flex-direction:column;
+        align-items:center;
+        margin:20px;
+    }
+
+    .box_learning_common{
+        width:100%;
+        height:auto;
+    }
+
+    /* Certification */
+    .Get_certified_box{
+        flex-direction:column;
+        padding:30px 20px;
+        border-radius:20px;
+    }
+
+    .Get_certified_box_s2{
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .Get_certified_box_s2_img1{
+        width:100%;
+        height:auto;
+    }
+
+    .Get_certified_box_s2_img1 img{
+        width:100%;
+        height:auto;
+    }
+
+    /* Career Cards */
+    .box_career{
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .box__1_c9,
+    .box__2_c10,
+    .box__3_c11{
+        width:95%;
+        height:auto;
+    }
+
+    .box__1_c9 img,
+    .box__2_c10 img,
+    .box__3_c11 img{
+        width:100%;
+        height:auto;
+    }
+
+    /* Company Logos */
+    .top_comp_w_udemy{
+        flex-direction:column;
+        gap:20px;
+        text-align:center;
+    }
+
+    .comp_logo{
+        flex-wrap:wrap;
+        gap:20px;
+    }
+
+    /* Footer Grid */
+    .Explor_top_skills_s1,
+    .Explor_top_skills_s2{
+        grid-template-columns:1fr;
+        gap:30px;
+        padding:20px;
+    }
+
+    /* Last Footer */
+    .last_box{
+        flex-direction:column;
+        height:auto;
+        gap:20px;
+        text-align:center;
+    }
+
+    .last_box_img{
+        flex-direction:column;
+    }
+
+    /* Common */
+    h1{
+        font-size:28px;
+    }
+
+    h2{
+        font-size:22px;
+    }
+
+    h3{
+        font-size:18px;
+    }
+
+    p{
+        font-size:15px;
+    }
+
+}
